@@ -7,7 +7,7 @@ Berikut soal tugas dari modul.\
 ![screenshot output](screenshot/soal.png)
 
 Ini adalah flowchart dari program yang akan saya buat.\
-![screenshot output](screenshot/flowchart.png)
+![screenshot output](screenshot/flowchart.jpg)
 
 Dibawah ini adalah code saya\
 Saya menggunakan ekstension PrettyTable pada code saya, yang membuatnya lebih mudah.
