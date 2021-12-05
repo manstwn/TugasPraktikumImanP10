@@ -1,7 +1,6 @@
 # Iman Setiawan
 
-**Tugas Praktikum - Pertemuan 9**\
-**Materi List, Tuple, dan Dictionary**
+**Tugas Praktikum - Pertemuan 10**\
 
 Berikut soal tugas dari modul.\
 ![screenshot output](screenshot/soal.png)
