@@ -1,6 +1,6 @@
 # Iman Setiawan
 
-**Tugas Praktikum - Pertemuan 10**\
+**Tugas Praktikum - Pertemuan 10**
 
 Berikut soal tugas dari modul.\
 ![screenshot output](screenshot/soal.png)
