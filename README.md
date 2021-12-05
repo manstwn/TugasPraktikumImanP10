@@ -54,7 +54,7 @@ while True:
         print()
         input("Tekan Enter untuk ke Menu Utama. . .")
 
-    if selected_menu == "T":
+    elif selected_menu == "T":
         print("Menambahkan Tambah Data Mahasiswa")
         nama = input("Nama\t\t: ")
         nim = int(input("NIM\t\t: "))
@@ -66,7 +66,7 @@ while True:
         print("Data telah di Input !")
         input("Tekan Enter untuk ke Menu Utama. . .")
 
-    if selected_menu == "C":
+    elif selected_menu == "C":
         print("Mencari Data Mahasiswa")
         nama = input("Masukkan Nama : ")
         if nama in x.keys() :
@@ -81,7 +81,7 @@ while True:
             print("Nama {0} Tidak Ditemukan".format(nama))
         input("Tekan Enter untuk ke Menu Utama. . .")
 
-    if selected_menu == "U":
+    elif selected_menu == "U":
         print("Ubah Data Mahasiswa")
         nama = input("Masukkan Nama   : ")
         if nama in x.keys():
@@ -96,7 +96,7 @@ while True:
             print("Nama {0} tidak ditemukan".format(nama))
         input("Tekan Enter untuk ke Menu Utama. . .")
 
-    if selected_menu == "H":
+    elif selected_menu == "H":
         print("Hapus Data Mahasiswa")
         nama = input("Masukkan Nama  : ")
         if nama in x.keys():
@@ -106,13 +106,17 @@ while True:
             print("Nama {0} Tidak Ditemukan".format(nama))
         input("Tekan Enter untuk ke Menu Utama. . .")
 
-    if selected_menu == "K":
+    elif selected_menu == "K":
         keluar = input("Yakin ingin keluar (Y/T) ? : ")
         if keluar == "Y":
             exit()
         else:
             input("Tekan Enter untuk ke Menu Utama. . .")
-            
+
+    else:
+        print("Input yang dimasukan salah")
+        input("Tekan Enter untuk ke Menu Utama. . .")
+   
 ~~~
 
 Contoh menambahkan data.\
